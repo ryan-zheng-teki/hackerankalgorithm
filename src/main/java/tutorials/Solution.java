@@ -1,8 +1,10 @@
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.*;
-
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Scanner;
 
 /**
  * There is a huge difference on the memory efficiency due to the different ways of arrangement.
@@ -82,16 +84,17 @@ public class Solution {
                 }
             }
 
-        for (String wordIndexPermutation : wordIndexesPermutations) {
-            if(isWordIndexPermutationValid(wordIndexPermutation,individualWords
-                    ,rowwordsPlaceHolders,columnwordsPlaceHolders)) {
-                fillWordsBackToBoard(crossword,rowwordsPlaceHolders,columnwordsPlaceHolders);
-                break;
-            }
-        }
         return crossword;
     }
-
+    
+    private static void generateAnswer(List<CrosswordPlaceHolder> remainingRowwordsPlaceHolders,List<CrosswordPlaceHolder> remainingColumnwordsPlaceHolders,
+                    List<CrosswordPlaceHolder> currentRowPlaceHolders,List<CrosswordPlaceHolder> currentColumnwordsPlaceHolders,String[] availableWords,int[] usedWordsIndexes) {
+        if (remainingRowwordsPlaceHolders.size() == 0) {
+            remain
+            
+        }
+    }
+    
     private static void fillWordsBackToBoard(String[] crossword,List<CrosswordPlaceHolder> rowwordsPlaceHolders,
                                              List<CrosswordPlaceHolder> columnwordsPlaceHolders) {
         for (int i = 0; i < rowwordsPlaceHolders.size(); i++) {
