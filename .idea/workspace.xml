@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bd06464-2853-4c6a-b223-b099112abdd6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tutorials/CrosswordPuzzle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tutorials/HackerRankInputOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tutorials/OddNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tutorials/HackerrankConsoleInputTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tutorials/HackerrankConsoleInputTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tutorials/NQueenProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tutorials/NQueenProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tutorials/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tutorials/Permutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tutorials/Solution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HackerrankConsoleInputTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/NQueenProblem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Permutation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Solution$CrosswordPlaceHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Solution$Position.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Solution.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tutorials/testdata" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,19 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2014">
-              <caret line="129" column="27" selection-start-line="129" selection-start-column="27" selection-end-line="129" selection-end-column="27" />
-              <folding>
-                <element signature="e#11209#11210#0" expanded="true" />
-                <element signature="e#11247#11248#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HackerrankConsoleInputTemplate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tutorials/HackerrankConsoleInputTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,14 +36,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CrosswordPuzzle.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CrosswordPuzzle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tutorials/CrosswordPuzzle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+            <state relative-caret-position="120">
+              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
               <folding>
                 <element signature="e#4476#4498#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testdata" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tutorials/testdata">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -96,7 +79,7 @@
         <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
-              <caret line="3180" column="23" lean-forward="true" selection-start-line="3180" selection-start-column="23" selection-end-line="3180" selection-end-column="23" />
+              <caret line="3180" column="23" selection-start-line="3180" selection-start-column="23" selection-end-line="3180" selection-end-column="23" />
               <folding>
                 <element signature="e#177013#177014#0" expanded="true" />
                 <element signature="e#177054#177055#0" expanded="true" />
@@ -155,6 +138,7 @@
       <find>getIndexPermutationsFrom</find>
       <find>package tutorials\;\n\nimport java\.io\.BufferedWriter\;\nimport java\.io\.FileWriter\;\nimport java\.io\.IOException\;\nimport java\.util\.\*\;\nimport java\.util\.stream\.Collectors\;\n\n\/\*\*\n \* The solution has three steps\n \* 1\. Find all those crossword placeholders and put them in an array\n \* 2\. Sort those placeholders by length in ascending order\. Sort words in ascending order\.\n \*    Then placeHolders and words length are aligned\n \* 3\.Fill the words back into the crosswords recursively\.\n \*\/\npublic class Solution \{\n    private static final Scanner scanner \= new Scanner\(System\.in\)\;\n    \/\*\*\n     \* Represent the point in the crossword\n     \*\/\n    static class Position \{\n        protected int rowIndex\;\n        protected int columnIndex\;\n        public Position\(int rowIndex\, int columnIndex\) \{\n            this\.rowIndex \= rowIndex\;\n            this\.columnIndex \= columnIndex\;\n        \}\n\n        public Position\(\) \{\}\n\n    \}\n    \/\*\*\n     \* Represent a crossword placeholder\. The placeHolder contains the startPosition\n     \* and endPosition\. And the final index of word that are put in the placeholder\n     \*\/\n    static class CrosswordPlaceHolder  implements Comparable\&lt;CrosswordPlaceHolder\&gt; \{\n        protected Position startPosition\;\n        protected Position endPosition\;\n        protected int wordIndex\;\n        protected boolean isHorizontal \= false\;\n\n\n        public CrosswordPlaceHolder\(Position startPosition\, Position endPosition\,boolean isHorizontal\) \{\n            this\.startPosition \= startPosition\;\n            this\.endPosition \= endPosition\;\n            this\.isHorizontal \= isHorizontal\;\n        \}\n\n        public int length\(\) \{\n            if\(isHorizontal\) \{\n                return endPosition\.columnIndex \- startPosition\.columnIndex \+1\;\n            \}\n            return endPosition\.rowIndex \- startPosition\.rowIndex \+1\;\n        \}\n\n        public Position nextPosition\(\) \{\n            return new Position\(\)\n        \}\n        \/\/used to sort the placeholder by length\n        public int compareTo\(CrosswordPlaceHolder another\) \{\n            return this\.length\(\) \- another\.length\(\)\;\n        \}\n\n    \}\n\n    \/\/ Complete the crosswordPuzzle function below\.\n    private static String\[\] crosswordPuzzle\(String\[\] crossword\, String words\,String seperator\) \{\n        \/\/Convert the crossword into a matrix\n        char\[\]\[\] corsswordCharMatrix \= convertToCharMatrix\(crossword\)\;\n        List\&lt;String\&gt; splitedWords \= Arrays\.asList\(words\.split\(seperator\)\)\;\n\n        int rowCount \= crossword\.length\;\n        int columnCount \= crossword\[0\]\.length\(\)\;\n\n        List\&lt;CrosswordPlaceHolder\&gt; crosswordPlaceHolders \= new ArrayList\&lt;\&gt;\(\)\;\n\n        \/\/Step1\:pull out all the crosswords placeholders\n        for \(int rowIndex \= 0\; rowIndex \&lt; rowCount\; rowIndex\+\+\) \{\n            for \(int columnIndex \= 0\; columnIndex \&lt; columnCount\; columnIndex\+\+\) \{\n\n                if \(isBeginningOfRowwordPlaceHolder\(rowIndex\, columnIndex\, crossword\, columnCount\)\) \{\n                    Position startPosition \= new Position\(rowIndex\, columnIndex\)\;\n\n                    Position endPosition \= findRowwordPlaceHolderEndPosition\(startPosition\, crossword\, columnCount\)\;\n                    CrosswordPlaceHolder rowword \= new CrosswordPlaceHolder\(startPosition\, endPosition\, true\)\;\n                    crosswordPlaceHolders\.add\(rowword\)\;\n                    \/\/ set the columnIndex to endPosition columnIndex to start search from end of placeholder\n                    columnIndex \= endPosition\.columnIndex\;\n                \}\n\n                if \(isBeginningOfColumnwordPlaceHolder\(rowIndex\, columnIndex\, crossword\, rowCount\)\) \{\n                    Position startPosition \= new Position\(rowIndex\, columnIndex\)\;\n                    Position endPosition \= findColumnwordPlaceHolderEndPosition\(startPosition\, crossword\, rowCount\)\;\n                    CrosswordPlaceHolder columnWord \= new CrosswordPlaceHolder\(startPosition\, endPosition\, false\)\;\n                    crosswordPlaceHolders\.add\(columnWord\)\;\n                \}\n            \}\n        \}\n\n\n        \/\/Step2\:sort both words and placeholders in ascending order by length\.\n        Collections\.sort\(crosswordPlaceHolders\)\;\n        Collections\.sort\(splitedWords\)\;\n\n\n        \/\/Step3\:\n        return crossword\;\n    \}\n\n    private static char\[\]\[\] convertToCharMatrix\(String\[\] crossword\) \{\n        int rowCount \= crossword\.length\;\n        int columnCount \= crossword\[0\]\.length\(\)\;\n        char\[\]\[\] crosswordBoard \= new char\[crossword\.length\]\[crossword\[0\]\.length\(\)\]\;\n\n        for \(int i \= 0\; i \&lt; rowCount\; i\+\+\) \{\n            for \(int j \= 0\; j \&lt; columnCount\; j\+\+\) \{\n                crosswordBoard\[i\]\[j\] \= crossword\[i\]\.charAt\(j\)\;\n            \}\n        \}\n        return crosswordBoard\;\n    \}\n    \n    private static void generateAnswer\(List\&lt;CrosswordPlaceHolder\&gt; remainingPlaceHolders\,List\&lt;String\&gt; remainingWords\,char\[\]\[\] crossword\) \{\n        \/\/This is the correct case\n        if\(remainingWords\.size\(\) \=\= 0 \&amp;\&amp; remainingPlaceHolders\.size\(\) \=\= 0\)  \{\n\n        \}\n\n        List\&lt;CrosswordPlaceHolder\&gt; tempPlaceHolders \= new ArrayList\&lt;CrosswordPlaceHolder\&gt;\(remainingPlaceHolders\.subList\(\)\;\n        List\&lt;String\&gt; tempWords \= new ArrayList\&lt;\&gt;\(remainingWords\)\;\n        CrosswordPlaceHolder currentPlaceHolder \= tempPlaceHolders\.get\(0\)\;\n        Position startPosition \= currentPlaceHolder\.startPosition\;\n        Position endPosition \= currentPlaceHolder\.endPosition\;\n\n        for\(int i \= 0\; i \&lt; tempWords\.size\(\)\; i\+\+\) \{\n\n            int rowIndex \= startPosition\.rowIndex\;\n            int columnIndex \= startPosition\.columnIndex\;\n\n            boolean isWordFitInPlaceHolder \= true\;\n                for\(int j \= 0\; j \&lt; currentPlaceHolder\.length\(\)\; j\+\+\) \{\n\n                    \/\/check the constraint\.\n                    if\(crossword\[rowIndex\]\[columnIndex\] \=\= \'\-\' \|\| crossword\[rowIndex\]\[columnIndex\] \=\= tempWords\.get\(i\)\.charAt\(j\)\) \{\n                        crossword\[startPosition\.rowIndex\]\[startPosition\.columnIndex\+j\] \= tempWords\.get\(i\)\.charAt\(j\)\;\n                    \}\n                    else \{\n                        \/\/invalid\n                        isWordFitInPlaceHolder \= false\;\n                        break\;\n                    \}\n                \}\n            if \(isWordFitInPlaceHolder\) \{\n                generateAnswer\(tempPlaceHolders\,tempWords\,crossword\)\;\n            \}\n    \}\n    \}\n\n    private static Position findRowwordPlaceHolderEndPosition\(Position startPosition\, String\[\] crossword\, int columnCount\) \{\n        \/\/ until the end of the column or the end of the \-\n        Position endPosition \= new Position\(\)\;\n        int rowIndex \= startPosition\.rowIndex\;\n        int columnIndex \= startPosition\.columnIndex\;\n\n        while \(columnIndex \&lt; columnCount \&amp;\&amp; crossword\[rowIndex\]\.charAt\(columnIndex\) \=\= \'\-\'\) \{\n            columnIndex\+\+\;\n        \}\n        endPosition\.rowIndex \= rowIndex\;\n        endPosition\.columnIndex \= columnIndex \- 1\;\n        return endPosition\;\n    \}\n\n    private static boolean isBeginningOfRowwordPlaceHolder\(int rowIndex\, int columnIndex\, String\[\] crossword\, int columnCount\) \{\n        if \(\(columnIndex \=\= 0 \|\| crossword\[rowIndex\]\.charAt\(columnIndex \- 1\) \!\= \'\-\'\)\n                \&amp;\&amp; \(columnIndex \+ 1\) \!\= columnCount\) \{\n            if \(crossword\[rowIndex\]\.charAt\(columnIndex\) \=\= \'\-\' \&amp;\&amp; crossword\[rowIndex\]\.charAt\(columnIndex \+ 1\) \=\= \'\-\'\) \{\n                return true\;\n            \} else \{\n                return false\;\n            \}\n        \}\n        return false\;\n    \}\n\n    private static Position findColumnwordPlaceHolderEndPosition\(Position startPosition\, String\[\] crossword\, int rowCount\) \{\n        \/\/ until the end of the column or the end of the \-\n        Position endPosition \= new Position\(\)\;\n        int rowIndex \= startPosition\.rowIndex\;\n        int columnIndex \= startPosition\.columnIndex\;\n\n        while \(rowIndex \&lt; rowCount \&amp;\&amp; crossword\[rowIndex\]\.charAt\(columnIndex\) \=\= \'\-\'\) \{\n            rowIndex\+\+\;\n        \}\n\n        endPosition\.rowIndex \= rowIndex \- 1\;\n        endPosition\.columnIndex \= columnIndex\;\n        return endPosition\;\n    \}\n\n    private static boolean isBeginningOfColumnwordPlaceHolder\(int rowIndex\, int columnIndex\, String\[\] crossword\, int rowCount\) \{\n        if \(\(rowIndex \=\= 0 \|\| crossword\[rowIndex \- 1\]\.charAt\(columnIndex\) \!\= \'\-\'\) \&amp;\&amp; \(rowIndex \+ 1\) \!\= rowCount\) \{\n            if \(crossword\[rowIndex\]\.charAt\(columnIndex\) \=\= \'\-\' \&amp;\&amp; crossword\[rowIndex \+ 1\]\.charAt\(columnIndex\) \=\= \'\-\'\) \{\n                return true\;\n            \} else \{\n                return false\;\n            \}\n        \}\n        return false\;\n    \}\n\n\n    public static void main\(String\[\] args\) throws IOException \{\n        BufferedWriter bufferedWriter \= new BufferedWriter\(new FileWriter\(System\.getenv\(\&quot;OUTPUT_PATH\&quot;\)\)\)\;\n\n        String\[\] crossword \= new String\[10\]\;\n\n        for \(int i \= 0\; i \&lt; 10\; i\+\+\) \{\n            String crosswordItem \= scanner\.nextLine\(\)\;\n            crossword\[i\] \= crosswordItem\;\n        \}\n\n        String words \= scanner\.nextLine\(\)\;\n        String\[\] result \= crosswordPuzzle\(crossword\, words\,\&quot;\#\&quot;\)\;\n\n        for \(int i \= 0\; i \&lt; result\.length\; i\+\+\) \{\n            bufferedWriter\.write\(result\[i\]\)\;\n\n            if \(i \!\= result\.length \- 1\) \{\n                bufferedWriter\.write\(\&quot;\\n\&quot;\)\;\n            \}\n        \}\n        bufferedWriter\.newLine\(\)\;\n        bufferedWriter\.close\(\)\;\n\n        scanner\.close\(\)\;\n    \}\n\}\n</find>
       <find>crosswordPuzzle</find>
+      <find>finalResult</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,6 +158,7 @@
         <option value="$PROJECT_DIR$/src/main/java/tutorials/OddNumbers.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorials/HackerRankInputOutput.java" />
         <option value="$PROJECT_DIR$/src/main/java/tutorials/CrosswordPuzzle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tutorials/testdata" />
       </list>
     </option>
   </component>
@@ -369,11 +354,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21653971" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21653971" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3297062" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18106996" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18106996" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Hybris Console [Experimental]" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -716,7 +701,7 @@
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="3180" column="23" lean-forward="true" selection-start-line="3180" selection-start-column="23" selection-end-line="3180" selection-end-column="23" />
+          <caret line="3180" column="23" selection-start-line="3180" selection-start-column="23" selection-end-line="3180" selection-end-column="23" />
           <folding>
             <element signature="e#177013#177014#0" expanded="true" />
             <element signature="e#177054#177055#0" expanded="true" />
@@ -770,11 +755,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tutorials/CrosswordPuzzle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        <state relative-caret-position="120">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
           <folding>
             <element signature="e#4476#4498#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorials/testdata">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
         </state>
       </provider>
     </entry>
