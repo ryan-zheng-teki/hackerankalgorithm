@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/Solution.java" line="188" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bd06464-2853-4c6a-b223-b099112abdd6" name="Default" comment="" />
+    <list default="true" id="3bd06464-2853-4c6a-b223-b099112abdd6" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tutorials/CrosswordPuzzle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tutorials/HackerRankInputOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tutorials/OddNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tutorials/HackerrankConsoleInputTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tutorials/HackerrankConsoleInputTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tutorials/NQueenProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tutorials/NQueenProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tutorials/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tutorials/Permutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tutorials/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HackerrankConsoleInputTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NQueenProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Permutation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Solution$CrosswordPlaceHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Solution$Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Solution.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,38 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="101" column="18" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HackerrankConsoleInputTemplate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/HackerrankConsoleInputTemplate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NQueenProblem.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/NQueenProblem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
         <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1805">
-              <caret line="118" column="12" selection-start-line="118" selection-start-column="12" selection-end-line="118" selection-end-column="12" />
+            <state relative-caret-position="2014">
+              <caret line="129" column="27" selection-start-line="129" selection-start-column="27" selection-end-line="129" selection-end-column="27" />
               <folding>
                 <element signature="e#11209#11210#0" expanded="true" />
                 <element signature="e#11247#11248#0" expanded="true" />
@@ -59,33 +44,96 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ArrayList.java">
+      <file leaf-file-name="HackerrankConsoleInputTemplate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tutorials/HackerrankConsoleInputTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2679">
-              <caret line="165" column="52" selection-start-line="165" selection-start-column="52" selection-end-line="165" selection-end-column="52" />
+            <state relative-caret-position="57">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NQueenProblem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tutorials/NQueenProblem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrosswordPuzzle.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tutorials/CrosswordPuzzle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
               <folding>
-                <element signature="e#6283#6284#0" expanded="true" />
-                <element signature="e#6351#6352#0" expanded="true" />
+                <element signature="e#4476#4498#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OddNumbers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tutorials/OddNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileOutputStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/FileOutputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="202" selection-start-line="202" selection-end-line="202" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Arrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="3180" column="23" lean-forward="true" selection-start-line="3180" selection-start-column="23" selection-end-line="3180" selection-end-column="23" />
+              <folding>
+                <element signature="e#177013#177014#0" expanded="true" />
+                <element signature="e#177054#177055#0" expanded="true" />
+                <element signature="e#177353#177354#0" expanded="true" />
+                <element signature="e#177410#177411#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Permutation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Permutation.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tutorials/Permutation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" selection-start-line="11" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="462">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java">
+      <file leaf-file-name="HackerRankInputOutput.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tutorials/HackerRankInputOutput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36062">
-              <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
+            <state relative-caret-position="552">
+              <caret line="32" column="75" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2869">
+              <caret line="176" column="11" selection-start-line="176" selection-start-column="11" selection-end-line="176" selection-end-column="11" />
+              <folding>
+                <element signature="e#6283#6284#0" expanded="true" />
+                <element signature="e#6351#6352#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,7 +153,12 @@
       <find>isWordIndexPermutationValid</find>
       <find>getWordIndexString</find>
       <find>getIndexPermutationsFrom</find>
+      <find>package tutorials\;\n\nimport java\.io\.BufferedWriter\;\nimport java\.io\.FileWriter\;\nimport java\.io\.IOException\;\nimport java\.util\.\*\;\nimport java\.util\.stream\.Collectors\;\n\n\/\*\*\n \* The solution has three steps\n \* 1\. Find all those crossword placeholders and put them in an array\n \* 2\. Sort those placeholders by length in ascending order\. Sort words in ascending order\.\n \*    Then placeHolders and words length are aligned\n \* 3\.Fill the words back into the crosswords recursively\.\n \*\/\npublic class Solution \{\n    private static final Scanner scanner \= new Scanner\(System\.in\)\;\n    \/\*\*\n     \* Represent the point in the crossword\n     \*\/\n    static class Position \{\n        protected int rowIndex\;\n        protected int columnIndex\;\n        public Position\(int rowIndex\, int columnIndex\) \{\n            this\.rowIndex \= rowIndex\;\n            this\.columnIndex \= columnIndex\;\n        \}\n\n        public Position\(\) \{\}\n\n    \}\n    \/\*\*\n     \* Represent a crossword placeholder\. The placeHolder contains the startPosition\n     \* and endPosition\. And the final index of word that are put in the placeholder\n     \*\/\n    static class CrosswordPlaceHolder  implements Comparable\&lt;CrosswordPlaceHolder\&gt; \{\n        protected Position startPosition\;\n        protected Position endPosition\;\n        protected int wordIndex\;\n        protected boolean isHorizontal \= false\;\n\n\n        public CrosswordPlaceHolder\(Position startPosition\, Position endPosition\,boolean isHorizontal\) \{\n            this\.startPosition \= startPosition\;\n            this\.endPosition \= endPosition\;\n            this\.isHorizontal \= isHorizontal\;\n        \}\n\n        public int length\(\) \{\n            if\(isHorizontal\) \{\n                return endPosition\.columnIndex \- startPosition\.columnIndex \+1\;\n            \}\n            return endPosition\.rowIndex \- startPosition\.rowIndex \+1\;\n        \}\n\n        public Position nextPosition\(\) \{\n            return new Position\(\)\n        \}\n        \/\/used to sort the placeholder by length\n        public int compareTo\(CrosswordPlaceHolder another\) \{\n            return this\.length\(\) \- another\.length\(\)\;\n        \}\n\n    \}\n\n    \/\/ Complete the crosswordPuzzle function below\.\n    private static String\[\] crosswordPuzzle\(String\[\] crossword\, String words\,String seperator\) \{\n        \/\/Convert the crossword into a matrix\n        char\[\]\[\] corsswordCharMatrix \= convertToCharMatrix\(crossword\)\;\n        List\&lt;String\&gt; splitedWords \= Arrays\.asList\(words\.split\(seperator\)\)\;\n\n        int rowCount \= crossword\.length\;\n        int columnCount \= crossword\[0\]\.length\(\)\;\n\n        List\&lt;CrosswordPlaceHolder\&gt; crosswordPlaceHolders \= new ArrayList\&lt;\&gt;\(\)\;\n\n        \/\/Step1\:pull out all the crosswords placeholders\n        for \(int rowIndex \= 0\; rowIndex \&lt; rowCount\; rowIndex\+\+\) \{\n            for \(int columnIndex \= 0\; columnIndex \&lt; columnCount\; columnIndex\+\+\) \{\n\n                if \(isBeginningOfRowwordPlaceHolder\(rowIndex\, columnIndex\, crossword\, columnCount\)\) \{\n                    Position startPosition \= new Position\(rowIndex\, columnIndex\)\;\n\n                    Position endPosition \= findRowwordPlaceHolderEndPosition\(startPosition\, crossword\, columnCount\)\;\n                    CrosswordPlaceHolder rowword \= new CrosswordPlaceHolder\(startPosition\, endPosition\, true\)\;\n                    crosswordPlaceHolders\.add\(rowword\)\;\n                    \/\/ set the columnIndex to endPosition columnIndex to start search from end of placeholder\n                    columnIndex \= endPosition\.columnIndex\;\n                \}\n\n                if \(isBeginningOfColumnwordPlaceHolder\(rowIndex\, columnIndex\, crossword\, rowCount\)\) \{\n                    Position startPosition \= new Position\(rowIndex\, columnIndex\)\;\n                    Position endPosition \= findColumnwordPlaceHolderEndPosition\(startPosition\, crossword\, rowCount\)\;\n                    CrosswordPlaceHolder columnWord \= new CrosswordPlaceHolder\(startPosition\, endPosition\, false\)\;\n                    crosswordPlaceHolders\.add\(columnWord\)\;\n                \}\n            \}\n        \}\n\n\n        \/\/Step2\:sort both words and placeholders in ascending order by length\.\n        Collections\.sort\(crosswordPlaceHolders\)\;\n        Collections\.sort\(splitedWords\)\;\n\n\n        \/\/Step3\:\n        return crossword\;\n    \}\n\n    private static char\[\]\[\] convertToCharMatrix\(String\[\] crossword\) \{\n        int rowCount \= crossword\.length\;\n        int columnCount \= crossword\[0\]\.length\(\)\;\n        char\[\]\[\] crosswordBoard \= new char\[crossword\.length\]\[crossword\[0\]\.length\(\)\]\;\n\n        for \(int i \= 0\; i \&lt; rowCount\; i\+\+\) \{\n            for \(int j \= 0\; j \&lt; columnCount\; j\+\+\) \{\n                crosswordBoard\[i\]\[j\] \= crossword\[i\]\.charAt\(j\)\;\n            \}\n        \}\n        return crosswordBoard\;\n    \}\n    \n    private static void generateAnswer\(List\&lt;CrosswordPlaceHolder\&gt; remainingPlaceHolders\,List\&lt;String\&gt; remainingWords\,char\[\]\[\] crossword\) \{\n        \/\/This is the correct case\n        if\(remainingWords\.size\(\) \=\= 0 \&amp;\&amp; remainingPlaceHolders\.size\(\) \=\= 0\)  \{\n\n        \}\n\n        List\&lt;CrosswordPlaceHolder\&gt; tempPlaceHolders \= new ArrayList\&lt;CrosswordPlaceHolder\&gt;\(remainingPlaceHolders\.subList\(\)\;\n        List\&lt;String\&gt; tempWords \= new ArrayList\&lt;\&gt;\(remainingWords\)\;\n        CrosswordPlaceHolder currentPlaceHolder \= tempPlaceHolders\.get\(0\)\;\n        Position startPosition \= currentPlaceHolder\.startPosition\;\n        Position endPosition \= currentPlaceHolder\.endPosition\;\n\n        for\(int i \= 0\; i \&lt; tempWords\.size\(\)\; i\+\+\) \{\n\n            int rowIndex \= startPosition\.rowIndex\;\n            int columnIndex \= startPosition\.columnIndex\;\n\n            boolean isWordFitInPlaceHolder \= true\;\n                for\(int j \= 0\; j \&lt; currentPlaceHolder\.length\(\)\; j\+\+\) \{\n\n                    \/\/check the constraint\.\n                    if\(crossword\[rowIndex\]\[columnIndex\] \=\= \'\-\' \|\| crossword\[rowIndex\]\[columnIndex\] \=\= tempWords\.get\(i\)\.charAt\(j\)\) \{\n                        crossword\[startPosition\.rowIndex\]\[startPosition\.columnIndex\+j\] \= tempWords\.get\(i\)\.charAt\(j\)\;\n                    \}\n                    else \{\n                        \/\/invalid\n                        isWordFitInPlaceHolder \= false\;\n                        break\;\n                    \}\n                \}\n            if \(isWordFitInPlaceHolder\) \{\n                generateAnswer\(tempPlaceHolders\,tempWords\,crossword\)\;\n            \}\n    \}\n    \}\n\n    private static Position findRowwordPlaceHolderEndPosition\(Position startPosition\, String\[\] crossword\, int columnCount\) \{\n        \/\/ until the end of the column or the end of the \-\n        Position endPosition \= new Position\(\)\;\n        int rowIndex \= startPosition\.rowIndex\;\n        int columnIndex \= startPosition\.columnIndex\;\n\n        while \(columnIndex \&lt; columnCount \&amp;\&amp; crossword\[rowIndex\]\.charAt\(columnIndex\) \=\= \'\-\'\) \{\n            columnIndex\+\+\;\n        \}\n        endPosition\.rowIndex \= rowIndex\;\n        endPosition\.columnIndex \= columnIndex \- 1\;\n        return endPosition\;\n    \}\n\n    private static boolean isBeginningOfRowwordPlaceHolder\(int rowIndex\, int columnIndex\, String\[\] crossword\, int columnCount\) \{\n        if \(\(columnIndex \=\= 0 \|\| crossword\[rowIndex\]\.charAt\(columnIndex \- 1\) \!\= \'\-\'\)\n                \&amp;\&amp; \(columnIndex \+ 1\) \!\= columnCount\) \{\n            if \(crossword\[rowIndex\]\.charAt\(columnIndex\) \=\= \'\-\' \&amp;\&amp; crossword\[rowIndex\]\.charAt\(columnIndex \+ 1\) \=\= \'\-\'\) \{\n                return true\;\n            \} else \{\n                return false\;\n            \}\n        \}\n        return false\;\n    \}\n\n    private static Position findColumnwordPlaceHolderEndPosition\(Position startPosition\, String\[\] crossword\, int rowCount\) \{\n        \/\/ until the end of the column or the end of the \-\n        Position endPosition \= new Position\(\)\;\n        int rowIndex \= startPosition\.rowIndex\;\n        int columnIndex \= startPosition\.columnIndex\;\n\n        while \(rowIndex \&lt; rowCount \&amp;\&amp; crossword\[rowIndex\]\.charAt\(columnIndex\) \=\= \'\-\'\) \{\n            rowIndex\+\+\;\n        \}\n\n        endPosition\.rowIndex \= rowIndex \- 1\;\n        endPosition\.columnIndex \= columnIndex\;\n        return endPosition\;\n    \}\n\n    private static boolean isBeginningOfColumnwordPlaceHolder\(int rowIndex\, int columnIndex\, String\[\] crossword\, int rowCount\) \{\n        if \(\(rowIndex \=\= 0 \|\| crossword\[rowIndex \- 1\]\.charAt\(columnIndex\) \!\= \'\-\'\) \&amp;\&amp; \(rowIndex \+ 1\) \!\= rowCount\) \{\n            if \(crossword\[rowIndex\]\.charAt\(columnIndex\) \=\= \'\-\' \&amp;\&amp; crossword\[rowIndex \+ 1\]\.charAt\(columnIndex\) \=\= \'\-\'\) \{\n                return true\;\n            \} else \{\n                return false\;\n            \}\n        \}\n        return false\;\n    \}\n\n\n    public static void main\(String\[\] args\) throws IOException \{\n        BufferedWriter bufferedWriter \= new BufferedWriter\(new FileWriter\(System\.getenv\(\&quot;OUTPUT_PATH\&quot;\)\)\)\;\n\n        String\[\] crossword \= new String\[10\]\;\n\n        for \(int i \= 0\; i \&lt; 10\; i\+\+\) \{\n            String crosswordItem \= scanner\.nextLine\(\)\;\n            crossword\[i\] \= crosswordItem\;\n        \}\n\n        String words \= scanner\.nextLine\(\)\;\n        String\[\] result \= crosswordPuzzle\(crossword\, words\,\&quot;\#\&quot;\)\;\n\n        for \(int i \= 0\; i \&lt; result\.length\; i\+\+\) \{\n            bufferedWriter\.write\(result\[i\]\)\;\n\n            if \(i \!\= result\.length \- 1\) \{\n                bufferedWriter\.write\(\&quot;\\n\&quot;\)\;\n            \}\n        \}\n        bufferedWriter\.newLine\(\)\;\n        bufferedWriter\.close\(\)\;\n\n        scanner\.close\(\)\;\n    \}\n\}\n</find>
+      <find>crosswordPuzzle</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -114,21 +167,27 @@
         <option value="$PROJECT_DIR$/src/main/java/HackerrankConsoleInputTemplate.java" />
         <option value="$PROJECT_DIR$/src/main/java/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/NQueenProblem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tutorials/NQueenProblem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tutorials/HackerrankConsoleInputTemplate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tutorials/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tutorials/Permutation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tutorials/OddNumbers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tutorials/HackerRankInputOutput.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tutorials/CrosswordPuzzle.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="69" />
-    <option name="y" value="93" />
-    <option name="width" value="1186" />
-    <option name="height" value="838" />
+    <option name="x" value="168" />
+    <option name="y" value="202" />
+    <option name="width" value="1182" />
+    <option name="height" value="822" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,14 +217,23 @@
               <item name="AlgorithmTutorials" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlgorithmTutorials" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgorithmTutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgorithmTutorials" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,7 +254,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NQueenProblem">
+  <component name="RunManager">
+    <configuration name="CrosswordPuzzle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutorials.CrosswordPuzzle" />
+      <module name="AlgorithmTutorials" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tutorials.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="HackerRankInputOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tutorials.HackerRankInputOutput" />
+      <module name="AlgorithmTutorials" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tutorials.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="NQueenProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NQueenProblem" />
       <module name="AlgorithmTutorials" />
@@ -241,9 +331,13 @@
     <list>
       <item itemvalue="Application.Permutation" />
       <item itemvalue="Application.NQueenProblem" />
+      <item itemvalue="Application.CrosswordPuzzle" />
+      <item itemvalue="Application.HackerRankInputOutput" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CrosswordPuzzle" />
+        <item itemvalue="Application.HackerRankInputOutput" />
         <item itemvalue="Application.NQueenProblem" />
         <item itemvalue="Application.Permutation" />
       </list>
@@ -268,51 +362,243 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3297062" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2548807" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21653971" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18106996" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Hybris Console [Experimental]" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.115342766" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tutorials/CrosswordPuzzle.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tutorials/CrosswordPuzzle.java</url>
+          <line>215</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tutorials/CrosswordPuzzle.java</url>
+          <line>129</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tutorials/CrosswordPuzzle.java</url>
+          <line>154</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tutorials/CrosswordPuzzle.java</url>
+          <line>168</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tutorials/CrosswordPuzzle.java</url>
+          <line>137</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tutorials/CrosswordPuzzle.java</url>
+          <line>122</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="17" />
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>(copiedCrossword[currentRowIndex][currentColumnIndex]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>currentPlaceHolder.length()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>rowIndex == 0 || crossword[rowIndex-1].charAt(columnIndex) != '-'</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>currentWords.subList(i+1,currentWords.size())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>currentWords.subList(0, i)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>currentPlaceHolders.subList(1,currentPlaceHolders.size())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>currentPlaceHolders.subList(1,currentPlaceHolders.size()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>remainingWords.subList(i,remainingWords.size())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>remainingWords.subList(0, i+1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2014">
+          <caret line="129" column="27" selection-start-line="129" selection-start-column="27" selection-end-line="129" selection-end-column="27" />
+          <folding>
+            <element signature="e#11209#11210#0" expanded="true" />
+            <element signature="e#11247#11248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorials/HackerrankConsoleInputTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorials/NQueenProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23579">
+          <caret line="1241" column="23" selection-start-line="1241" selection-start-column="23" selection-end-line="1241" selection-end-column="23" />
+          <folding>
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
+            <element signature="e#177353#177354#0" expanded="true" />
+            <element signature="e#177410#177411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorials/Permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2869">
+          <caret line="176" column="11" selection-start-line="176" selection-start-column="11" selection-end-line="176" selection-end-column="11" />
+          <folding>
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6351#6352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37183">
+          <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorials/CrosswordPuzzle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1919">
-          <caret line="101" column="49" selection-start-line="101" selection-start-column="49" selection-end-line="101" selection-end-column="49" />
+          <caret line="103" lean-forward="true" selection-start-line="103" selection-end-line="103" />
+          <folding>
+            <element signature="e#4476#4498#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HackerrankConsoleInputTemplate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/HackerrankConsoleInputTemplate.java" />
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="2242">
+          <caret line="118" column="12" selection-start-line="118" selection-start-column="12" selection-end-line="118" selection-end-column="12" />
+          <folding>
+            <element signature="e#11209#11210#0" expanded="true" />
+            <element signature="e#11247#11248#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2679">
+          <caret line="165" column="52" selection-start-line="165" selection-start-column="52" selection-end-line="165" selection-end-column="52" />
+          <folding>
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6351#6352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Permutation.java" />
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36062">
+          <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NQueenProblem.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/HackerrankConsoleInputTemplate.java" />
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2242">
@@ -335,13 +621,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Permutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Permutation.java" />
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37183">
@@ -349,20 +629,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NQueenProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" selection-start-line="22" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1919">
-          <caret line="101" column="49" selection-start-line="101" selection-start-column="49" selection-end-line="101" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/NQueenProblem.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java" />
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2242">
@@ -385,13 +653,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Permutation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Permutation.java" />
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37183">
@@ -399,34 +661,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HackerrankConsoleInputTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="56" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HackerrankConsoleInputTemplate.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -434,13 +672,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -455,21 +687,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2679">
-          <caret line="165" column="52" selection-start-line="165" selection-start-column="52" selection-end-line="165" selection-end-column="52" />
-          <folding>
-            <element signature="e#6283#6284#0" expanded="true" />
-            <element signature="e#6351#6352#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Permutation.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/HackerrankConsoleInputTemplate.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/NQueenProblem.java" />
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1805">
-          <caret line="118" column="12" selection-start-line="118" selection-start-column="12" selection-end-line="118" selection-end-column="12" />
+        <state relative-caret-position="2014">
+          <caret line="129" column="27" selection-start-line="129" selection-start-column="27" selection-end-line="129" selection-end-column="27" />
           <folding>
             <element signature="e#11209#11210#0" expanded="true" />
             <element signature="e#11247#11248#0" expanded="true" />
@@ -477,31 +702,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Permutation.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="2869">
+          <caret line="176" column="11" selection-start-line="176" selection-start-column="11" selection-end-line="176" selection-end-column="11" />
+          <folding>
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6351#6352#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HackerrankConsoleInputTemplate.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="380">
+          <caret line="3180" column="23" lean-forward="true" selection-start-line="3180" selection-start-column="23" selection-end-line="3180" selection-end-column="23" />
+          <folding>
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
+            <element signature="e#177353#177354#0" expanded="true" />
+            <element signature="e#177410#177411#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/io/FileOutputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="101" column="18" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
+        <state relative-caret-position="437">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NQueenProblem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorials/NQueenProblem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+        <state relative-caret-position="95">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorials/Permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorials/HackerrankConsoleInputTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorials/OddNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorials/HackerRankInputOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="32" column="75" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tutorials/CrosswordPuzzle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+          <folding>
+            <element signature="e#4476#4498#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
