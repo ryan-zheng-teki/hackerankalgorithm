@@ -1,4 +1,4 @@
-package tutorials;
+package algorithm;
 import  java.util.Scanner;
 
 public class HackerrankConsoleInputTemplate {

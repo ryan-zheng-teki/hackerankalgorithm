@@ -1,4 +1,4 @@
-package tutorials;
+package algorithm;
 
 import java.io.*;
 import java.util.Scanner;

@@ -1,0 +1,5 @@
+
+Psquid:S1481"-Remove this unused "myString" local variable.(à£²Åıÿÿÿÿ8±®ïÖ-
+Hsquid:S1481"*Remove this unused "myInt" local variable.(“‚û8±®ïÖ-
+Wsquid:S1854"9Remove this useless assignment to local variable "myInt".(“‚û8±®ïÖ-
+_squid:S1854"<Remove this useless assignment to local variable "myString".(à£²Åıÿÿÿÿ8±®ïÖ-

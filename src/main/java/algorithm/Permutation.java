@@ -1,4 +1,4 @@
-package tutorials;
+package algorithm;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

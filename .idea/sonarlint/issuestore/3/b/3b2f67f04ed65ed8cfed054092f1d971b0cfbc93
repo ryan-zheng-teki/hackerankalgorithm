@@ -1,0 +1,14 @@
+
+Gsquid:S1066¿"/Merge this if statement with the enclosing one.(‡Ñ š
+Gsquid:S1066×"/Merge this if statement with the enclosing one.(ƒ¯ûó
+qsquid:S2293†"YReplace the type specification in this constructor call with the diamond operator ("<>").(¥´Üç
+vsquid:S1210†"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(ŽØìªýÿÿÿÿ
+bsquid:CommentedOutCodeLine~"<This block of commented-out lines of code should be removed.(É•ˆà
+hsquid:CommentedOutCodeLine€"<This block of commented-out lines of code should be removed.(—Ûóäûÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÔÍ²
+Gsquid:S1481d"0Remove this unused "columnCount" local variable.(ÑÜª‹
+nsquid:S3776x"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(ú¸ü»ýÿÿÿÿ
+Vsquid:S1854d"?Remove this useless assignment to local variable "columnCount".(ÑÜª‹
+Zsquid:S1155z">Use isEmpty() to check whether the collection is empty or not.(æ€ßÑùÿÿÿÿ
+Zsquid:S1155z">Use isEmpty() to check whether the collection is empty or not.(æ€ßÑùÿÿÿÿ

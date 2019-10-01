@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NQueenProblem",
+            "request": "launch",
+            "mainClass": "NQueenProblem",
+            "projectName": "AlgorithmTutorials"
+        }
+    ]
+}
