@@ -33,7 +33,7 @@ public class NQueenBlockSquare {
      * Refactor version 3:
      * convert recursion into iterations.Recursion always have a iterative variable.And also
      * use memoization to store the already computed configurations.For example find the possible
-     * row configurations.
+     * row configurations.Memory is preferable to runtime. So go for the time-complexity first.
      */
 
     private static final Scanner scanner = new Scanner(System.in);
@@ -86,6 +86,11 @@ public class NQueenBlockSquare {
      * index contains the column index. The second index contains the selected rows.
      * We initialize all the row indexes to be -1.Then
      * currentColumn contains the column index of the current column to process.
+     * <p>
+     * <p>
+     * ArrayCopy
+     * ArrayReset should be removed.
+     * Convert recursion to iteration.
      *
      * @param previousColumnPlacements
      * @param currentColumn
@@ -180,7 +185,7 @@ public class NQueenBlockSquare {
 
         List<int[]> result = new ArrayList<>();
         //validRows contains all the valid rows.We have to get all the valid permutations of these rows.
-        getValidRowConfigurations(currentRowConfig, currentCandidateRowIndexes, currentColumn, 0, 0, validRowCount, board, result);
+        getValidRowConfigurations(currentRowConfig, currentCandidateRowIndexes, currentColumn, 0, board, result);
         Arrays.fill(currentCandidateRowIndexes, -1);//reset the values since they are not useful anymore
         Arrays.fill(currentRowConfig, -1);
 
@@ -196,11 +201,52 @@ public class NQueenBlockSquare {
 
     }
 
+
+    private static void getValidRowConfigurationsTabulation(int[] rowConfigs, int[] validRows, int columnIndex, String[] board, List<int[]> result) {
+        int validRowLength = validRows.length;
+
+        for (int currentRowSelection = 0; currentRowSelection < validRowLength; currentRowSelection++) {
+            int count = 0;
+            boolean currentRowValid = true;
+
+            while (count < rowConfigs.length) {
+                boolean isValidSelection = false;
+                //check constraint against
+                int rowIndexToCheck = rowConfigs[count] + 1;
+
+                //check constraint
+                while (rowIndexToCheck < validRows[currentRowSelection]) {
+                    if (board[rowIndexToCheck].charAt(columnIndex) == '#') {
+                        isValidSelection = true;
+                        break;
+                    }
+                    rowIndexToCheck++;
+                }
+
+                if (isValidSelection) {
+                    count++;
+                } else {
+                    currentRowValid = false;
+                    break;
+                }
+            }
+
+            for (int i = 0; i < 2; i++) {
+                if (i == 0) {
+                    if (currentRowValid) {
+                        rowConfigs[count] = validRows[currentRowSelection];
+                    }
+                }
+            }
+        }
+    }
+
+
     //We can divide the column into segments divided by symbol #.For each segments
     //we can select one position.This is exactly what we see.Convert what we see into
-    //programs.
-    private static void getValidRowConfigurations(int[] rowConfigs, int[] validRows, int columnIndex, int currentRowSelection, int selectedRowCount, int validRowCount, String[] board, List<int[]> result) {
-        if (currentRowSelection == validRowCount) {
+    //programs.There is too much time complexity here.
+    private static void getValidRowConfigurations(int[] rowConfigs, int[] validRows, int columnIndex, int currentRowSelection, String[] board, List<int[]> result) {
+        if (currentRowSelection == validRows.length) {
             result.add(cloneArray(rowConfigs));
             return;
         }
@@ -208,7 +254,7 @@ public class NQueenBlockSquare {
         int count = 0;
         boolean currentRowValid = true;
 
-        while (count < selectedRowCount) {
+        while (count < rowConfigs.length) {
             boolean isValidSelection = false;
             //check constraint against
             int rowIndexToCheck = rowConfigs[count] + 1;
@@ -231,14 +277,14 @@ public class NQueenBlockSquare {
         }
         if (currentRowValid) {
             rowConfigs[count] = validRows[currentRowSelection];
-            getValidRowConfigurations(rowConfigs, validRows, columnIndex, currentRowSelection + 1, selectedRowCount + 1, validRowCount, board, result);
+            getValidRowConfigurations(rowConfigs, validRows, columnIndex, currentRowSelection + 1, board, result);
             //restore the changes
-            Arrays.fill(rowConfigs, selectedRowCount, validRowCount, -1);
+            Arrays.fill(rowConfigs, rowConfigs.length, validRows.length, -1);
         }
         //we also need to consider the option that the current row is not selected at all
-        getValidRowConfigurations(rowConfigs, validRows, columnIndex, currentRowSelection + 1, selectedRowCount, validRowCount, board, result);
+        getValidRowConfigurations(rowConfigs, validRows, columnIndex, currentRowSelection + 1, board, result);
         //restore the changes
-        Arrays.fill(rowConfigs, selectedRowCount, validRowCount, -1);
+        Arrays.fill(rowConfigs, rowConfigs.length, validRows.length, -1);
     }
 
     private static int[] cloneArray(int[] source) {
