@@ -193,7 +193,6 @@ public class NQueenBlockSquare {
             generateAnswer(previousColumnPlacements, currentColumn + 1, board, queensPlaced + index);
             Arrays.fill(previousColumnPlacements[currentColumn], 0, rowCount, -1);
         }
-
     }
 
     //We can divide the column into segments divided by symbol #.For each segments
@@ -239,6 +238,16 @@ public class NQueenBlockSquare {
         getValidRowConfigurations(rowConfigs, validRows, columnIndex, currentRowSelection + 1, selectedRowCount, validRowCount, board, result);
         //restore the changes
         Arrays.fill(rowConfigs, selectedRowCount, validRowCount, -1);
+    }
+
+
+    /**
+     * Tabularization opmitimization
+     *
+     * @return
+     */
+    static int generateAnswerTabularization() {
+        return 0;
     }
 
     private static int[] cloneArray(int[] source) {
